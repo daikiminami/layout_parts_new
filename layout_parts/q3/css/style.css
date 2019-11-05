@@ -19,12 +19,12 @@
   line-height: 26px;
 }
 
-.table tr th,td {
+.table tr th,.table tr td {
   border: solid #dedede 1px;
   padding: 10px 0;
 }
 
 .table > tbody > tr:last-child {
-  border-top: dashed #000 2px;
+  border-bottom: dashed #000 2px;
 }
 /* 回答はここに書いてね */

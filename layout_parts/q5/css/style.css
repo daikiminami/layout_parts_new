@@ -52,8 +52,8 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 0px;
-  left: 80px;
+  top: 0;
+  right: 0px;
   content: "";
 }
 
@@ -86,15 +86,9 @@
 }
 
 .box9 {
-  width: 100px;
-  height: 100px;
   background-color: #2b69a3;
   position: fixed;
   top: 10px;
   left: 10px;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bolder;
-  line-height: 100px;
 }
 /* 回答はここに書いてね */

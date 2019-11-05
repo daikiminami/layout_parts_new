@@ -3,98 +3,96 @@
 /* 回答はここに書いてね */
 
 /* q7_1.1 */
-.q7_float_left{
-  font-size: 16px;
+
+.q7_float_text {
   box-sizing: border-box;
-  width: 225px;
   float: left;
-}
-
-.q7_float_right{
   font-size: 16px;
-  box-sizing: border-box;
-  width: 225px;
   margin-left: 50px;
-  float: right;
+  width: 225px;
+}
+.q7_float_text:first-child {
+  margin-left: 0;
 }
 
-.clearfix::after{
+.clearfix::after {
   content: "";
   display: block;
-  clear: both;
+  clear: left;
 }
 
 /* q7_1.2 */
-.q7_table_class{
+.q7_table_class {
   display: table;
   table-layout: fixed;
 }
 
-.q7_tablecell_class{
+.q7_tablecell_class {
   font-size: 16px;
+  padding-left: 50px;
   width: 225px;
   vertical-align: middle;
   display: table-cell;
 }
 
-.q7_tablecell_class:first-child{
-  padding-right: 50px;
+.q7_tablecell_class:first-child {
+padding-left: 0;
 }
 
 /* q7_1.3 */
 
 /* ???? */
-.q7_inlineblock_box_size{
+.q7_inlineblock_box_size {
+  font-size: 0;
   width: 500px;
 }
 
-.q7_inlineblock_text{
-  width: 225px;
+.q7_inlineblock_text {
   box-sizing: border-box;
   display: inline-block;
+  font-size: 16px;
+  width: 225px;
   vertical-align: middle;
 }
 
-.q7_inlineblock_text:first-child{
-  /* 50pxにできない */
-  margin-right: 45px;
+.q7_inlineblock_text:first-child {
+  margin-right: 50px;
 }
 
 /* q7_1.4 */
-.q7_flex_box{
+.q7_flex_box {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
 }
 
-.q7_flex_text_box{
+.q7_flex_text_box {
+  box-sizing: border-box;
   width: 225px;
 }
 
 /* q7_1.5 */
 
-.q7_inline_margin_box{
-  width: 500px;
+.q7_inline_margin_box {
+  font-size: 0;
 }
-
-.q7_text_inline_margin{
-  vertical-align: top;
+.q7_inline_display  {
   display: inline-block;
+  font-size: 16px;
+}
+.q7_inline_box {
   box-sizing: border-box;
-}
-
-.q7_text_inline_margin:first-child{
+  vertical-align: top;
   width: 300px;
-  margin-right: 50px; 
 }
 
-.q7_text_inline_margin:last-child{
-  width: calc(100% - 200px);
-  margin-left: -200px;
+.q7_flex_margin_box {
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-left: -300px;
 }
-
-.q7_flex_margin_text{
-  min-width: 45px;
-  margin-left: 200px;
+.q7_flex_margin_text_box {
+  margin-left: 350px;
 }
 /* 回答はここに書いてね */

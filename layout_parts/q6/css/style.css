@@ -5,11 +5,11 @@
 /* Q6-1 左右中央寄せ */
 
 /* Q6-1.1 */
-.q6_text_align{
+.q6_text_align {
   text-align: center;
 }
 
-.content_display{
+.content_display {
   width: 90px;
   padding: 10px;
   /* text-alignはインライン要素の親につけると適応 */
@@ -18,7 +18,7 @@
 }
 
  /* Q6-1.2 */
-.q6_margin_auto{
+.q6_margin_auto {
   width: 90px;
   /* ブロック要素に適応 */
   margin: 0 auto;
@@ -30,40 +30,40 @@
 /* Q6-2 天地左右中央寄せ */
 
 /* Q6-2.1 */
-.q6_table_class{
+.q6_table_class {
   display: table;
 }
 
-.q6_table_cell{
+.q6_table_cell {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.q6_inline_block_class{
+.q6_inline_block_class {
   padding: 10px;
   display: inline-block;
   background-color: #fff;
 }
 
 /* Q6-2.2 */
-.q6_flex_box{
-display: flex;
-justify-content: center;
-align-items: center;
+.q6_flex_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.q6_flex_content{
+.q6_flex_content {
   padding: 10px;
   background-color: #fff;
 }
 
 /* Q6-2.3 */
-.q6_stable_box{
+.q6_stable_box {
   position: relative;
 }
 
-.position_text{
+.position_text {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -73,11 +73,11 @@ align-items: center;
 }
 
 /* Q6-2.4 */
-.q6_flexible_box{
+.q6_flexible_box {
   position: relative;
 }
 
-.q6_flexible_text{
+.q6_flexible_text {
   position: absolute;
   top: 50%;
   left: 50%;

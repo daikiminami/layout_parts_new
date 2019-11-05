@@ -44,19 +44,19 @@ padding-left: 0;
 /* ???? */
 .q7_inlineblock_box_size {
   font-size: 0;
-  width: 500px;
 }
 
 .q7_inlineblock_text {
   box-sizing: border-box;
   display: inline-block;
   font-size: 16px;
+  margin-left: 50px;
   width: 225px;
   vertical-align: middle;
 }
 
 .q7_inlineblock_text:first-child {
-  margin-right: 50px;
+  margin-left: 0;
 }
 
 /* q7_1.4 */
